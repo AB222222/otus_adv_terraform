@@ -16,6 +16,6 @@ resource "ah_cloud_server" "example" {
   datacenter = "ams1"
   image      = "centos-7-x64"
   product    = "start-xs"
-  ssh_keys   = ["YOURS_SSH_KEY_FINGERTIP"]
+  ssh_keys   = ["YOUR_SSH_KEY_FINGERTIP"]
 
 }
