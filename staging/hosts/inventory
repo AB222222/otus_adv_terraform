@@ -1,0 +1,2 @@
+[web]
+nginx ansible_host=IP_YOUR_AH_HOST ansible_port=22
