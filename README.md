@@ -8,9 +8,9 @@ ____________________________________
 
 terraform apply
 
-В файле staging/hosts/inventory в качестве ansible_host должен быть указать ip хоста, созданного на AH.
+Потом в файл staging/hosts/inventory в качестве ansible_host добавляем ip хоста, созданного на AH.
 
-Конфигурация Ansible накатывается командой 
+И накатываем сценарий Ansible:
 
 ansible-playbook nginx.yml
 
