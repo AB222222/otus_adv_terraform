@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "ah" {
-  access_token = "5BjtUwudXUEHxMX8xuXDoCTP"
+  access_token = "YOUR_ACCESS_TOKEN"
 }
 
 resource "ah_cloud_server" "example" {
